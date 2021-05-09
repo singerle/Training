@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>javaScript图片库</title>
+	<script type="text/javascript" src="./js/showPic.js"></script>
+	<link rel="stylesheet" href="./css/showPicStyle.css">
+</head>
+<body>
+	<h1>
+		原生js个人图片库
+	</h1>
+	<ul>
+		<li>
+			<a href="./images/girl.jpeg" onclick="showPicture(this);return false;" title="可爱的美女图片">
+				美女图片
+			</a>
+		</li>
+		<li>
+			<a href="./images/dog.jpeg" onclick="showPicture(this);return false;" title="可爱的小狗狗">
+				小狗狗
+			</a>
+		</li>
+		<li>
+			<a href="./images/car.jpeg" onclick="showPicture(this);return false;" title="特斯拉轿车">
+				小汽车特使拉
+			</a>
+		</li>
+		<li>
+			<a href="./images/carton.jpeg" onclick="showPicture(this);return false;" title="卡通人物">
+				卡通图片
+			</a>
+		</li>
+		<li>
+			<a href="./images/tree.jpeg" onclick="showPicture(this);return false;" title="绿色植物和花">
+				结果实的树
+			</a>
+		</li>
+	</ul>
+	<div>
+		<img id="picture" src="./images/placehold.gif" alt="placehold" >
+	</div>
+	<p id="picDescribe">默认展示图片</p>
+</body>
+</html>
